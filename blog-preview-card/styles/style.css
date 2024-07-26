@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: figtree-eb;
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4d04e;
+}
+
+article {
+    margin: auto;
+    margin-top: 15vh;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 9px 9px 0px black;
+}
+
+picture {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url(../assets/images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 275px;
+    height: 200px;
+}
+
+h2 {
+    background-color: #f4d04e;
+    font-family: "figtree-eb", sans-serif;
+    margin: 20px 14px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 65px;
+}
