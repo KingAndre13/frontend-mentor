@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: inter-b;
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter-sb;
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter-r;
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+article {
+    margin: auto;
+    margin-top: 18vh;
+    width: 325px;
+    height: 650px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    border-radius: 10px;
+}
+
+picture {
+    margin: 30px;
+}
+
+picture > img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "inter-b";
+    margin-top: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "inter-sb";
+    font-size: 14px;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "inter-r";
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+
+ul {
+    font-family: "inter-sb";
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    margin: auto;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    article {
+        width: 400px;
+    }
+
+    li {
+        width: 300px;
+    }
+
+}
