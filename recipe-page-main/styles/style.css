@@ -30,6 +30,7 @@ header > picture img{
 }
 
 main {
+    background-color: white;
     max-width: 300px;
     margin: auto;
 }
@@ -53,7 +54,7 @@ p#p1 {
 }
 
 #s1 {
-    background-color: hsl(330, 100%, 98%);
+    background-color: #fff5fa;
     border-radius: 10px;
     color: hsl(332, 51%, 32%);
 }
@@ -112,6 +113,7 @@ hr {
     right: 25px;
     margin: 30px 0px;
     width: 330px;
+    color: hsl(30, 18%, 87%);
 }
 
 #s3 {
@@ -193,4 +195,109 @@ hr {
 #s4 #s-s4d {
     position: relative;
     left: 46%;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+        padding: 40px;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+       min-height: 1500px;
+       max-width: 900px;
+       border-radius: 20px;
+       margin-top: 30px;
+       padding: 40px 30px 20px 30px;
+    }
+
+    main picture {
+        display: block;
+        margin: auto;
+        background-image: url(../assets/images/image-omelette.jpeg);
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px;
+        width: 880px;
+        height: 400px;
+    }
+
+    #s0 {
+        width: 880px;
+        
+    }
+
+    #s0 h1 {
+        font-size: 2em;
+        text-indent: 10px;
+    }
+
+    #s0 p {
+        margin-left: 10px;
+    }
+
+    #s1 {
+        width: 880px;
+        margin-left: 10px;
+    }
+
+    #s1 ul {
+        width: 256px;
+    }
+
+    #s1 ul li {
+        list-style-position: inside;
+    }
+
+    #s2 {
+        width: 880px;
+        margin-left: 36px;
+    }
+
+    hr {
+        width: 880px;
+    }
+
+    #s3 {
+        width: 880px;
+        margin-left: 36px;
+    }
+
+    #s3 ol {
+        width: 660px;
+    }
+
+    #s4 {
+        width: 880px;
+        margin-left: 15px;
+    }
+
+    #s4 hr {
+        margin-left: 15px;
+
+    }
+
+    #s4 div {
+        margin-left: 32px;
+    }
+
+    #s4 #s-s4a {
+        margin-left: -56px;
+    }
+
+    #s4 #s-s4b {
+        margin-left: -83px;
+    }
+
+    #s4 #s-s4c {
+        margin-left: -66px;
+    }
+
+    #s4 #s-s4d {
+        margin-left: -112px;
+    }
 }
